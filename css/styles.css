@@ -1,0 +1,98 @@
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label Styles */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Input Styles */
+input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Select Styles */
+select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Student ID Styles */
+#myStudentId {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Button Container Styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    input[type="number"] {
+        width: 90%;
+    }
+
+    select {
+        width: 90%;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
